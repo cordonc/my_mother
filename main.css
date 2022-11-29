@@ -1,0 +1,36 @@
+html {
+    scroll-beahvior: smooth;
+}
+
+body {
+
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    /* or 125% */
+    letter-spacing: 15%;
+    color: #CF6E3C;
+
+
+    background:  rgba(197, 178, 144, 0.1);
+}
+
+p {
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 5%;
+    color: #CF6E3C;
+   
+}
+
+img {
+    width: 400px;
+    height: auto;
+  }
+
+
