@@ -1,5 +1,6 @@
 html {
-    scroll-beahvior: smooth;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -21,16 +22,51 @@ p {
     font-family: 'IM FELL English';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    color: #766f6bdb;
     line-height: 1.5em;
     letter-spacing: 5%;
-    color: #CF6E3C;
    
+}
+
+p.asterisk
+{
+    font-size: 2em;
+    font-weight: 500;
+    color: #CF6E3C;
+    text-indent: .50em;
 }
 
 img {
     width: 400px;
     height: auto;
+    overflow-y: scroll;
+    overflow-x: scroll;
   }
+
+/* Text Scrolling */
+.scrolling-area {
+    max-width: 400px;
+    max-height: 500px;
+    overflow: auto;
+    padding: 2rem;
+    background: rgba(132, 135, 140, 0.163);
+    direction: ltl;
+  }
+  
+.scrolling-element-inside {
+    direction: ltr;
+  }
+
+
+/* Grid Container */
+#grid-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+}
+  
 
 
