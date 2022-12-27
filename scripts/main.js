@@ -1,8 +1,8 @@
 
-$(document).ready(function() {
-    $(window).scrollTop($(window).height()/2);
-    $(window).scrollLeft($(window).width()/2);
-});
+// $(document).ready(function() {
+//     $(window).scrollTop(2000);
+//     $(window).scrollLeft(1700);
+// });
 
 
 
@@ -12,18 +12,19 @@ $(document).ready(function() {
 
 
 //2nd Attempt
-// $(window).load(function(){
+$(window).load(function(){
 
-//     $(document).ready(function(){
-//      scrollTo(($(document).width() - $(window).width()) / 2, 0);
-// });
-// });
+    $(document).ready(function(){
+     scrollTo(($(document).width() - $(window).width()) / 2, 0);
+})
+});
+
 
 
 
 //1st Attempt
-// window.onload = function(){
-//     document.addEventListener('DOMContentLoaded', function(){console.log('test')})
-//     window.scrollBy(1100,1200)
-//      console.log('i loaded')
-// };
+    
+    // document.addEventListener('DOMContentLoaded', function(){console.log('test')})
+    // window.scrollTop(3000,3200)
+    //  console.log('i loaded')
+;
