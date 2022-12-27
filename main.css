@@ -25,6 +25,7 @@ p {
     color: #766f6bdb;
     line-height: 1.5em;
     letter-spacing: 5%;
+    list-style: none;
    
 }
 
@@ -34,32 +35,51 @@ p.asterisk
     font-weight: 500;
     color: #CF6E3C;
     text-indent: .50em;
+
 }
 
+ul.list {
+    list-style: none;
+
+}
+
+
 img {
-    width: 400px;
+    width: 550px;
     height: auto;
     overflow-y: scroll;
     overflow-x: scroll;
-  }
+    
+}
 
 /* Text Scrolling */
 .scrolling-area {
-    max-width: 400px;
-    max-height: 500px;
-    overflow: auto;
+    max-width: 65px;
+    max-height: 65px;
+    overflow: scroll;
     padding: 2rem;
     background: rgba(132, 135, 140, 0.163);
     direction: ltl;
+    object-position: 2em;
+    transition-property: max-width, mad-height,;
+    transition-duration: 1.45s, 1.45s;
+
   }
-  
+
 .scrolling-element-inside {
     direction: ltr;
   }
 
+.scrolling-area:hover {
+    max-width: 400px;
+    max-height: 600px;
+  }
+  
+
+
 
 /* Grid Container */
-#grid-container {
+.grid-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -67,6 +87,19 @@ img {
     bottom: 0;
     overflow: scroll;
 }
+
+
+.floating-journals {
+    position: absolute;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content:center;
+    image-rendering: crisp-edges;
+
+
+}
+
+
   
 
 
